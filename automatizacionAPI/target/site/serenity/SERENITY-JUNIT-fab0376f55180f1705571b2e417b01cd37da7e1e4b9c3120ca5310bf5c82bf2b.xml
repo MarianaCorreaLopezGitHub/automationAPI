@@ -1,1 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Yo como analista de calidad" skipped="1" tests="1" time="0.11" timestamp="2021-11-17 04:39:54"><testcase name=""><skipped/></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Yo como analista de calidad" skipped="0" tests="1" time="0.54" timestamp="2021-11-18 09:43:25"><testcase name=""><error type="java.lang.NullPointerException"/><system-err>null&#13;
+net.serenitybdd.rest.SerenityRest.lastResponse(SerenityRest.java:63)&#13;
+certification.tasks.ObtenerPokemon.performAs(ObtenerPokemon.java:18)&#13;
+certification.stepdefinitions.PokemonGetStepDefinitions.elUsuarioTraeLaInformacionDelPokemon(PokemonGetStepDefinitions.java:24)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

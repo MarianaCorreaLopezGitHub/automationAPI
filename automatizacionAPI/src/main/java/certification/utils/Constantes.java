@@ -1,6 +1,7 @@
 package certification.utils;
 
 public class Constantes {
-    public static final String URL="https://pokeapi.co/api/v2/";
-    public static final String MICRO="berry-firmness/2/";
+    public static final String URL="https://reqres.in/api/";
+    public static final String MICRO="users";
+    public static final String ACTOR="user";
 }

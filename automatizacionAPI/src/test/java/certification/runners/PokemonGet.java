@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = "src\\test\\resources\\features\\pokemon_get.feature",
-        glue = "src\\test\\java\\certification\\stepdefinitions",
+        glue = "certification.stepdefinitions",
         snippets = SnippetType.CAMELCASE
 )
 public class PokemonGet {
